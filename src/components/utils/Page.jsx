@@ -37,7 +37,7 @@ const Page = () => {
   if (displayLanding) {
     return (
       <div className={styles.quedapp}>
-        <iframe src='http://www.quedapp.com/' width='100%' height='100%' />
+        <iframe src='https://www.quedapp.com/' width='100%' height='100%' />
       </div>
     )
   }
