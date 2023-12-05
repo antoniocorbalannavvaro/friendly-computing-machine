@@ -94,9 +94,12 @@ Este código es completamente Open Source, así que puedes utilizarlo como mejor
 <img src='./readmeAssets/desktop3.png'/>
 <h1>Móvil:
 <h1 align="center"> Vertical:
+<div style="display: flex;">
 <img src='./readmeAssets/img1.webp'/>
 <img src='./readmeAssets/img4.webp'/>
 <img src='./readmeAssets/img6.webp'/>
+</div>
+
 <h1 align="center"> Horizontal:
 <img src='./readmeAssets/img2.webp'/>
 <img src='./readmeAssets/img3.webp'/>
