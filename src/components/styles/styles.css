@@ -1,0 +1,112 @@
+.container {
+    text-align: center;
+}
+  
+.content {
+    margin: 0px 0;
+    max-width: 100%;
+}
+  
+.homePopUp {
+    position: absolute;
+    display: flex;
+    bottom: 32px;
+    background-color: var(--dark2);
+
+    width: 350px;
+    height: 500px;
+    margin: 0 auto;
+    opacity: 0;
+    z-index: 1;
+    transform: translateY(200px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    }
+
+    .homePopUp.in.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.newsPopUp {
+    position: absolute;
+    display: flex;
+    bottom: 32px;
+    right: 0px;
+    background-color: var(--dark2);
+
+    width: 350px;
+    height: 500px;
+    margin: 0 auto;
+    opacity: 0;
+    z-index: 1;
+    transform: translateY(200px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    }
+
+    .newsPopUp.in.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* @media (max-width: 600px) {
+    .homePopUp  {
+        width: 500px;
+    }
+} */
+
+@media (max-width: 500px) {
+    .homePopUp  {
+        width: 300px;
+    }
+}
+
+@media (max-width: 300px) {
+    .homePopUp  {
+        width: 200px;
+    }
+}
+
+@media (max-height: 531px) {
+    .homePopUp  {
+        height: 300px;
+        width: 200px;
+    }
+}
+
+@media only screen and (max-height: 333px) {
+    .homePopUp  {
+        height: 240px;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .newsPopUp {
+        /* background-color: red; */
+        width: 250px;
+        display: flex;
+    }
+}
+
+@media (max-width: 250px) {
+    .newsPopUp {
+        display: none;
+    }
+}
+
+
+@media (max-height: 531px) {
+    .newsPopUp  {
+        height: 420px;
+        /* width: 200px; */
+    }
+}
+
+@media only screen and (max-height: 450px) {
+    .newsPopUp  {
+        bottom: 20px;
+        right: -17.5px;
+        height: 240px;
+        /* background-color: red; */
+        scale: 0.9;
+    }
+}

@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300;500&family=Shrikhand&display=swap');
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* background-color: #0078D7; */
+  overflow: hidden;
+  --dark1: #121212;
+  --dark2: #1F1E1E;
+  --dark3: #292929;
+  --specialDark: #222222;
+  --letters: white;
+  --invert: invert(0%);
+  --winImage: url('./assets/windows-10-white.webp');
+  --selectedBackgroundColor: white;
+  --theme: dark
+}
+
+#root::-webkit-scrollbar {
+  display: none;
+}
+
+#root {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+
+}
+
+body {
+  font-family: 'Assistant', sans-serif;
+  color: white;  
+  padding: 0;
+  margin: 0;
+  background-color: rgb(0, 118, 214);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.045), rgb(0, 118, 214));
+}
+
+.app {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('./assets/windows-10-white-opacity.webp');
+  background-repeat: no-repeat;
+  background-size: 200px;
+  background-position: 80%;
+}
+
+a:link {
+  text-decoration: inherit;
+  color: inherit;
+  cursor: auto;
+}
+
+a:visited {
+  text-decoration: inherit;
+  color: inherit;
+  cursor: auto;
+}
+
+@media only screen and (max-width: 500px) {
+  .app {
+    background-size: 150px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .app {
+    background-size: 100px;
+  }
+}

@@ -1,0 +1,255 @@
+.responsiveBox {
+    position: absolute;
+    width: 100%;
+    height: 95.5%;
+    top: 29px;
+    container-type: size;
+    background-color: var(--letters);
+    user-select: none;
+    color: var(--letters);
+}
+
+.settings {
+    /* color: var(--letters); */
+    /* position: absolute; */
+    display: flex;
+    /* top: 29px; */
+    /* width: 100%; */
+    height: 100%;
+    /* background-color: var(--letters);
+    user-select: none; */
+}
+
+.leftBar {
+    background-color: var(--dark1);
+    width: 30%;
+}
+
+.rightBar {
+    padding-left: 20px;
+    position: relative;
+    background-color: var(--specialDark);
+    width: 80%;
+    overflow: scroll;
+}
+
+.colorsContainer {
+    /* background-color: rgba(255, 0, 0, 0.144); */
+    display: flex;
+    flex-wrap: wrap;
+    width: 290px;
+}
+.colorDiv {
+    position: relative;;
+    flex: 1 0 15%;
+    margin: 1px;
+    height: 40px;
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, 0);
+}
+
+.colorDiv:hover{
+    cursor: pointer;
+    border-color:var(--letters);
+}
+
+.option {
+    display: flex;
+    gap: 15px;
+    padding-left: 10px;
+    justify-content: left;
+    align-items: center;
+    height: 45px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.lateralOption {
+    position: relative;
+    width: 5px;
+    height: 20px;
+}
+
+.option:hover {
+    background-color: #6c6b6b;
+}
+
+.option img {
+    width: 18px;
+    /* height: 20px; */
+}
+
+.inputColor {
+    border: 1px solid;
+    color: var(--letters);
+    width: 200px;
+    height: 20px;
+    background-color: rgba(0, 0, 0, 0);
+    user-select: none;
+}
+
+
+.backgroundPage input[type=text] {
+    border: 1px solid;
+    border-color: var(--letters);
+    border-left: 0px;
+}
+
+.backgroundPage input[type=text]:focus {
+    outline: none;
+}
+
+.inputTheme {
+    border: 1px solid;
+    color: var(--letters);
+    width: 200px;
+    height: 20px;
+    background-color: rgba(0, 0, 0, 0);
+    user-select: none;
+}
+
+.themeContainer {
+    overflow: scroll;
+    margin-bottom: 100px;
+}
+
+.themeContainer input[type=none] {
+    padding-left: 10px;
+    border: 1px solid;
+    border-color: var(--letters);
+    text-transform: capitalize;
+    user-select: none;
+}
+
+.themeContainer input[type=none]:focus {
+    outline: none;
+    user-select: none;
+}
+.themeContainer input:hover {
+    cursor: pointer;
+}
+
+label {
+    position: relative;
+    top: 0.4px;
+    padding: 0.2px;
+    padding-bottom: 0.7px;
+    padding-left: 6px;
+    border-left: 1px solid;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-color: var(--letters);
+}
+
+.formTheme {
+    width: 100px;
+}
+
+.themesPopUp {
+    position: relative;
+    width: 200px;
+    /* background-color: rgb(120, 120, 120); */
+}
+.themeContainer h5 {
+    cursor: pointer;
+}
+
+.themesPopUp h3{
+    color: var(--letters);
+    padding: 5px;
+}
+
+.themesPopUp h3:hover{
+    background-color: #6c6b6b5c;
+    cursor: pointer;
+}
+
+
+@container (max-width: 690px) {
+  .settings {
+    display: grid;
+    align-items: center;
+  }
+  .leftBar {
+    position: absolute;
+    display: grid;
+    top: 0px;
+    width: 100%;
+    height: 120px;
+  }
+
+  .rightBar{
+    position: absolute;
+    top: 120px;
+    width: 100%;
+    height: 100%;
+  }
+
+  .themeContainer {
+    scale: 0.9;
+  }
+
+  .backgroundPage {
+    scale: 0.8;
+    position: relative;
+    right: 20px;
+    top: -50px;
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+  }
+  label {
+    display: none;
+  }
+
+.backgroundPage input[type=text] {
+    position: relative;
+    left: 42px;
+    border: 1px solid;
+    border-color: var(--letters);
+    margin-bottom: 100px;
+
+}
+
+.themeContainer {
+    display: grid;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    right: 20px;
+    overflow: hidden;
+    margin-bottom: 200px;
+}
+/* .themeContainer h2 {
+    display: none;
+} */
+
+.themeContainer h1 {
+    font-size: 30px;
+}
+}
+
+@container (max-width: 250px) {
+    .themeContainer{
+        width: 120%;
+        right: 40px;
+    }
+
+    .inputTheme{ 
+        scale: 0.9;
+    }
+
+    .colorsContainer {
+        scale: .8;
+    }
+
+    .backgroundPage h2 {
+        font-size: 19px;
+    }
+
+}

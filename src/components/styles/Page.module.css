@@ -1,0 +1,195 @@
+.page {
+  position: absolute;
+  display: flex;
+  top: 10px;
+  right: 1px;
+  width: 100%;
+  height: 100%;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  overflow-y: scroll;
+  container-type: inline-size;
+  animation: fadeIn .3s ease-out forwards;
+  background: linear-gradient(200deg, rgb(16, 16, 16), rgb(32, 32, 32));
+}
+  
+.box {
+  background-color: #2f2f2f;
+  display: flex;
+  position: relative;
+  width: 60%;
+  height: 60%;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: .5rem;
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.164);
+  overflow: hidden;
+}
+
+.box h3 {
+  padding: 20px;
+  animation: fadeIn .3s ease-out forwards;
+}
+
+.box h4 {
+  position: absolute;
+  left: 50%;
+  top: 100%;
+}
+
+.box img {
+  width: 30px;
+}
+
+.box img:hover {
+  scale: 1.1;
+  cursor: pointer;
+  filter: drop-shadow(0 0 0.4rem rgb(20, 130, 220));
+}
+
+.box {
+  user-select: none;
+}
+
+.empty {
+  cursor: default !important;
+}
+
+.quedapp {
+  position: absolute;
+  top: 25px;
+  right: 1.9px;
+  width: 100%;
+  height: 96.3%;
+  animation: fadeIn 1s ease-out forwards;
+}
+
+.quedappButton {
+  border: none;
+  font-size: 20px;
+  height: 50px;
+  background-color: rgba(240, 248, 255, 0);
+  cursor: pointer;
+}
+
+.quedappButton:hover {
+  animation: scaleMe .1s ease-out forwards;
+  text-shadow: #FB5404 1px 0 20px;
+}
+
+.responsiveButtons {
+  display: none;
+  position: absolute;
+  top: 87%;
+  gap: 100px;
+}
+
+.responsiveButtons img {
+  width: 15px;
+}
+
+.responsiveButtons img:hover{
+  scale: 1.1;
+  cursor: pointer;
+  filter: drop-shadow(0 0 0.4rem rgb(20, 130, 220));
+}
+
+@container (max-width: 690px) {
+  .box {
+    width: 70%;
+  }
+  .box h3 {
+    padding: 15px;
+  }
+}
+
+@container (max-width: 575px) {
+  .box {
+    width: 75%;
+  }
+  .box h3 {
+    padding: 15px;
+  }
+}
+
+@container (max-width: 550px) {
+  .box {
+    width: 75%;
+  }
+  .box h3 {
+    font-size: 15px;
+    padding: 15px;
+  }
+}
+
+@container (max-width: 380px) {
+  .box {
+    width: 90%;
+  }
+  .box h3 {
+    font-size: 15px;
+    padding: 15px;
+  }
+}
+
+@container (max-width: 320px) {
+  .box {
+    width: 95%;
+  }
+  .box h3 {
+    font-size: 15px;
+    padding: 15px;
+  }
+}
+
+@container (max-width: 300px) {
+  .box {
+    width: 95%;
+    align-items: center;
+    justify-content: center;
+  }
+  .box h3 {
+    font-size: 15px;
+    padding: 15px;
+    text-align: center;
+  }
+
+  .box img {
+    display: none;
+  }
+
+  .responsiveButtons {
+    display: flex;
+  }
+}
+
+@container (max-width: 214px) {
+  .box {
+    width: 80%;
+    padding: 15px;
+  }
+  .box h3 {
+    font-size: 14px;
+    padding: 0px;
+  }
+}
+
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+}
+
+@keyframes scaleMe {
+  0% {
+    scale: 1;
+  }
+  100% {
+    scale: 1.1;
+  }
+}
+

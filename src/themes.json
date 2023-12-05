@@ -1,0 +1,24 @@
+{
+    "light" : {
+        "--dark1": "rgb(245, 245, 245)",
+        "--dark2": "rgb(210, 210, 210)",
+        "--dark3": "#CCCCCC",
+        "--dark4": "#E6E6E6",
+        "--specialDark": "white",
+        "--letters": "black",
+        "--invert": "invert(100%)",
+        "--selectedBackgroundColor": "black",
+        "--theme": "light"
+    },
+    "dark" : {
+        "--dark1": "#121212",
+        "--dark2": "#1F1E1E",
+        "--dark3": "#292929",
+        "--dark4": "#E6E6E6",
+        "--specialDark": "#222222",
+        "--letters": "white",
+        "--invert": "invert(0%)",
+        "--selectedBackgroundColor": "white",
+        "--theme": "dark"
+    }
+}

@@ -1,0 +1,26 @@
+.option {
+    display: flex;
+    gap: 15px;
+    padding-left: 10px;
+    justify-content: left;
+    align-items: center;
+    height: 45px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.option:hover {
+    background-color: rgba(109, 109, 109, 0.479);
+}
+
+.option img {
+    width: 18px;
+    filter: var(--invert)
+    /* height: 20px; */
+}
+
+.lateralOption {
+    position: relative;
+    width: 5px;
+    height: 20px;
+}

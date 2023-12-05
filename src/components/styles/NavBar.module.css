@@ -1,0 +1,140 @@
+.NavBar {
+    position: absolute;
+    color: var(--letters);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    bottom: 0px;
+    min-width: 100vw;
+    height: 2.0rem;
+    background-color: var(--dark1);
+    z-index: 2;
+}
+
+.logoContainer {
+    position: relative;
+    display: flex;
+    height: 90.5%;
+    width: 3rem;
+    justify-content: center;
+    align-items: center;
+    background-image: var(--winImage);
+    background-repeat: no-repeat;
+    background-size: 34%;
+    background-position: center;
+    z-index: 2;
+    filter: var(--invert)
+}
+
+.logoContainer:hover {
+    background-image: url('../../assets/win-blue.webp');
+    background-repeat: no-repeat;
+    background-size: 34%;
+    background-position: center;
+    scale:1.1;
+    cursor: pointer;
+}
+
+.logoContainer:hover {
+    background-color: rgba(255, 255, 255, 0.223);
+}
+
+.clock {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 94%;
+    width: 42px;
+    margin-right: 12px;
+    padding-inline: 15px;
+    font-size: 11px;
+    color: var(--letters);
+    row-gap: -1rem;
+    z-index:2;
+    overflow: hidden;
+    user-select: none
+}
+
+.clock:hover {
+    background-color: rgba(255, 255, 255, 0.223);
+    cursor: pointer;
+    scale: 1.068
+}
+
+.utils {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0px;
+    right: 85px;
+    user-select: none;
+}
+
+.utils img {
+    width: 15px;
+    height: 100%;
+    padding: 7.69px;
+    filter: var(--invert);
+}
+
+.utils img:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.223);
+    scale: 1.1;
+}
+
+.searchBar {
+    position: absolute;
+    height: 98%;
+    background-color: white;
+    display: flex;
+    left: 50px;
+    width: 300px;
+    user-select: none;
+}
+
+.searchBar img {
+    width: 16px;
+    height: 16px;
+    position: relative;
+    top: 8.5px;
+    left: 7px;
+}
+
+.searchBar input{
+    background-color: white;
+    color: black;
+    border: .5px solid rgb(172, 171, 171);
+    position: relative;
+    left: 12px;
+    width: 300px
+}
+
+.searchBar input[type=text] {
+    border: none;
+}
+
+.searchBar input[type=text]:focus {
+    outline: none;
+}
+
+@media (max-width: 561px) {
+    .searchBar {
+        display: none;
+    }
+}
+
+@media (max-width: 250px) {
+    .utils {
+        display: none;
+    }
+}
+
+@media (max-width: 180px) {
+    .clock {
+        display:none
+    }
+}

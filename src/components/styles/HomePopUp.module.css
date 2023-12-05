@@ -1,0 +1,26 @@
+.container {
+    position: absolute;
+    display: flex;
+    bottom: 0px;
+    background-color: rgb(0, 0, 0);
+    width: 600px;
+    height: 550px;
+}
+
+.child {
+    position: absolute;
+    display: flex;
+    bottom: 0px;
+    background-color: rgb(0, 0, 0);
+    width: 550px;
+    height: 550px;
+    top: calc( 100% - 1rem ); /*100% - height*/
+    transition: all .3s ease;
+    will-change: top;
+    /* opacity: 0; */
+}
+
+.container:hover  .child{
+    top: 0;  
+    /* opacity: 1; */
+}
