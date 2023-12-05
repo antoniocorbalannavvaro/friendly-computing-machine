@@ -82,7 +82,7 @@ Este código es completamente Open Source, así que puedes utilizarlo como mejor
 - [ ] Permitir crear carpetas nuevas y cambiarles el nombre.
 - [ ] Implementar cambio de interfaz a MacOS.
 - [ ] Añadir minijuegos.
-- [-] Soporte para varios lenguajes:
+- [ ] Soporte para varios lenguajes:
     - [x] Español
     - [ ] Inglés
     - [ ] Francés
