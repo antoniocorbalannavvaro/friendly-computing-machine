@@ -3,7 +3,8 @@ import styles from './styles/Curriculum.module.css'
 const Curriculum = () => {
   return (
     <div className={styles.cv}>
-      <object data='https://drive.google.com/file/d/19EPtR6D7grRY5_2f7t-QHd5hS614bgzm/preview?usp=sharing' width='100%' height='100%' />
+
+      <object data='https://drive.google.com/file/d/1wCKwYCrQK6uNzHt89G9br-tUNOKr0qFr/preview?usp=sharing' width='100%' height='100%' />
     </div>
   )
 }
