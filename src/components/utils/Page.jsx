@@ -6,11 +6,11 @@ import emptyIcon from '../../assets/empty-next-back-icon.webp'
 
 const Page = () => {
   const pageContent = [
-    'Quedapp es mi proyecto personal. Es la primera APP de un conjunto de aplicaciones que pretende cambiar la manera en la que hoy en día gestionamos nuestra vida social y realizamos planes con nuestros amigos.',
+    'Quedapp es mi proyecto de emprendimiento. Es la primera APP de un conjunto de aplicaciones que pretende cambiar la manera en la que hoy en día gestionamos nuestra vida social y realizamos planes con nuestros amigos.',
     'Quedapp es una aplicación móvil con la que puedes crear planes con tus amigos y organizar tu vida social de una forma rápida y sencilla.',
     'Puedes añadir a tus amigos directamente con su número de teléfono e invitarlos a unirse a la APP.',
-    'También puedes compartir tu ubicación actual en cualquier momento para hacer saber a tus amigos donde estás para que se puedan unirse a tu plan.',
-    'Todo es y muchas más...',
+    'También puedes compartir tu ubicación actual en cualquier momento para hacer saber a tus amigos donde estás para que se puedan unir a un plan esporádico.',
+    'Todo eso y mucho más...',
     'CLICK PARA IR A LA LANDING PAGE'
   ]
   const PAGENUMBER = pageContent.length
