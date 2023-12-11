@@ -24,9 +24,13 @@
   --theme: dark
 }
 
-#root::-webkit-scrollbar {
+:root::-webkit-scrollbar {
   display: none;
 }
+
+/* #root::-webkit-scrollbar {
+  display: none;
+} */
 
 #root {
   -ms-overflow-style: none;

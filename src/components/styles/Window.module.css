@@ -9,7 +9,7 @@
     height: 29px;
     background-color: var(--dark3);
     z-index: 1;
-    cursor: default;
+    cursor: grabbing;
     animation: fadeIn .5s ease-out forwards;
     /* box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.517); */
 }
@@ -27,6 +27,7 @@
     padding-right: 5px; */
     padding: 3.5px;
     transition: 0.1s;
+    cursor: pointer;
 }
 
 .iconsBox img:last-child:hover {

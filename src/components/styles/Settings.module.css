@@ -30,7 +30,7 @@
     position: relative;
     background-color: var(--specialDark);
     width: 80%;
-    overflow: scroll;
+    overflow-y: scroll;
 }
 
 .colorsContainer {
@@ -109,7 +109,7 @@
 }
 
 .themeContainer {
-    overflow: scroll;
+    overflow: hidden;
     margin-bottom: 100px;
 }
 
