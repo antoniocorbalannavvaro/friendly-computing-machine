@@ -3,7 +3,7 @@
 
   <p align="center">
     Emulación de la interfaz de windows 10 utilizando React y bun
-    <h4 align="center"><a href="https://friendly-computing-machine-bice.vercel.app/" target="_blank">LIVE DEMO</a></h4>
+    <h4 align="center"><a href="https://portfolio-antonio-corbalan-win10.vercel.app/" target="_blank">LIVE DEMO</a></h4>
     <br />
   </p>
 </div>
