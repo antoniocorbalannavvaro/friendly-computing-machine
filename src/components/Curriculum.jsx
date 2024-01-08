@@ -4,7 +4,7 @@ const Curriculum = () => {
   return (
     <div className={styles.cv}>
 
-      <object data='https://drive.google.com/file/d/1w8ccQBlCm3dk8swgFa7ATj5HMTnwrZIJ/preview?usp=sharing' width='100%' height='100%' />
+      <object data='https://drive.google.com/file/d/1ZVpiLQprhyrxbof7uCvx8e0TZb2Wrt_Z/preview?usp=sharing' width='100%' height='100%' />
     </div>
   )
 }
